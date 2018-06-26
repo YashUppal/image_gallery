@@ -3,7 +3,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Image Gallery</title>
+    <title>GALLERY</title>
+    <!-- css stylesheet -->
+    <link rel="stylesheet" href="style.css">
     <!-- Bootstrap CDN -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" async></script>
@@ -12,13 +14,16 @@
     src="https://code.jquery.com/jquery-3.3.1.min.js"
     integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
     crossorigin="anonymous" async></script>
+    <!-- Emojis -->
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+
 </head>
 <body>
     
     <!-- navbar -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Images</a>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"><i class="em em-camera"></i>  GALLERY</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,13 +48,44 @@
         </div>
       </nav>
 
-
+      <!-- jumbotron -->
     <div class="container">
         <div class="jumbotron">
-        <h1>The Image Gallery</h1>
+        <h1><i class="em-svg em-camera"></i>  GALLERY</h1>
         <p>a showcase of beautiful images.</p>
         </div>
-    </div>
-    1
+
+        <!-- image showcase -->
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-1 padded">
+                <img class="img-fluid thumbnail" src="https://cdn.pixabay.com/photo/2018/06/10/00/11/seagull-3465550_960_720.jpg" alt="">
+             </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-1s">
+                    <img class="img-fluid padded" src="https://cdn.pixabay.com/photo/2018/06/10/00/11/seagull-3465550_960_720.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-1s">
+                    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2018/06/10/00/11/seagull-3465550_960_720.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-1s">
+                    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2018/06/10/00/11/seagull-3465550_960_720.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-1s">
+                    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2018/06/10/00/11/seagull-3465550_960_720.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-1s">
+                    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2018/06/10/00/11/seagull-3465550_960_720.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-1s">
+                    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2018/06/10/00/11/seagull-3465550_960_720.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-1s">
+                    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2018/06/10/00/11/seagull-3465550_960_720.jpg" alt="">
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-6 col-xs-1s">
+                    <img class="img-fluid" src="https://cdn.pixabay.com/photo/2018/06/10/00/11/seagull-3465550_960_720.jpg" alt="">
+            </div>
+            </div>
+        </div>
 </body>
 </html>
