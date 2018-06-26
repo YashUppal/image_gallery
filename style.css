@@ -1,6 +1,8 @@
 img {
     padding-bottom: 10%;
     border-radius: 5px;
+    height: 100%;
+    width: 100%;
 }
 
 body {
@@ -8,9 +10,13 @@ body {
 }
 
 .jumbotron {
-    background: #FFEFBA;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-    
+    background: #a4bbd240;
+}
+
+.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: rgb(255,255,255);
+}
+
+.img_container{
+    padding:0;
 }
